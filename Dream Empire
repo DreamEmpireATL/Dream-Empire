@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dream Empire</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: #ffd1dc;
+      color: #000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .box {
+      background: #fff;
+      color: #000;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background: #ffd1dc;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 10px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    /* Floating WhatsApp button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1ebe5d;
+    }
+
+    .whatsapp-float a {
+      color: #fff;
+      display: block;
+      line-height: 60px;
+      text-decoration: none;
+    }
+
+    /* Gallery styling */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+
+    /* Testimonials / About */
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Dream Empire</h1>
+  <p>Luxury Beauty & Hair Brand</p>
+</header>
+
+<!-- Hero / About Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">About Us</h2>
+    <p>Dream Empire is your ultimate beauty destination. We offer professional nails, premium human hair, and wholesale products. Our goal is to make every client feel luxurious and confident.</p>
+  </div>
+</section>
+
+<!-- Nails Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">Dream Nails</h2>
+    <p>Professional nail services with style & elegance.</p>
+    <div class="gallery">
+      <!-- Mete imaj ou yo la -->
+      <img src="images/nail1.jpg" alt="Nail 1">
+      <img src="images/nail2.jpg" alt="Nail 2">
+      <img src="images/nail3.jpg" alt="Nail 3">
+    </div>
+  </div>
+</section>
+
+<!-- Hair Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">Dream Hair</h2>
+    <p>100% Human Hair - Premium Quality</p>
+    <div class="gallery">
+      <!-- Mete imaj cheve yo la -->
+      <img src="images/hair1.jpg" alt="Hair 1">
+      <img src="images/hair2.jpg" alt="Hair 2">
+      <img src="images/hair3.jpg" alt="Hair 3">
+    </div>
+  </div>
+</section>
+
+<!-- Products / Wholesale Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">Products & Wholesale</h2>
+    <p>We sell hair and beauty products in bulk worldwide.</p>
+    <div class="gallery">
+      <!-- Mete imaj pwodwi yo la -->
+      <img src="images/product1.jpg" alt="Product 1">
+      <img src="images/product2.jpg" alt="Product 2">
+      <img src="images/product3.jpg" alt="Product 3">
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">Contact Us</h2>
+
+    <a class="btn" href="tel:+16789749912">📞 Call Us</a>
+    <a class="btn" href="https://wa.me/16789749912">💬 WhatsApp</a>
+
+    <div class="social">
+      <p>Follow us:</p>
+      <a href="https://www.tiktok.com/@sucredor2.0?_r=1&_t=ZT-95Jpwf0NiPd" target="_blank">TikTok</a> |
+      <a href="https://www.instagram.com/dream____nails___?igsh=MTNzMW1mcHFsaWprcA==" target="_blank">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- Payment Section -->
+<section>
+  <div class="box">
+    <h2 class="section-title">Payment Methods</h2>
+    <p>We accept:</p>
+    <p>💵 Cash | 💳 Zelle | 📲 Cash App | 🌐 PayPal</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Dream Empire - All rights reserved
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<div class="whatsapp-float">
+  <a href="https://wa.me/16789749912" target="_blank">💬</a>
+</div>
+
+</body>
+</html>
